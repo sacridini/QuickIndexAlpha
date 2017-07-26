@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>288</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuVegetation">
+    <property name="title">
+     <string>Vegetation</string>
+    </property>
+    <addaction name="actionNDVI"/>
+    <addaction name="actionSAVI"/>
+    <addaction name="actionGOSAVI"/>
+    <addaction name="actionNDGI"/>
+    <addaction name="actionGDVI"/>
+    <addaction name="actionEVI"/>
+    <addaction name="actionEVI_2"/>
+    <addaction name="actionGNDVI"/>
+    <addaction name="actionCIGreen"/>
+    <addaction name="actionTVI"/>
+    <addaction name="actionGRVI"/>
+    <addaction name="actionLAI"/>
+    <addaction name="actionGVMI"/>
+    <addaction name="actionGLI"/>
+    <addaction name="actionLog_Ratio"/>
+    <addaction name="actionPan_NDVI"/>
+   </widget>
+   <widget class="QMenu" name="menuWater">
+    <property name="title">
+     <string>Water</string>
+    </property>
+    <addaction name="actionNDWI"/>
+   </widget>
+   <widget class="QMenu" name="menuUrban">
+    <property name="title">
+     <string>Urban</string>
+    </property>
+    <addaction name="actionNDBI"/>
+   </widget>
+   <widget class="QMenu" name="menuBurn">
+    <property name="title">
+     <string>Burn</string>
+    </property>
+    <addaction name="actionNBR"/>
+   </widget>
+   <widget class="QMenu" name="menuGeology">
+    <property name="title">
+     <string>Geology</string>
+    </property>
+    <addaction name="actionNDSI"/>
+   </widget>
+   <addaction name="menuVegetation"/>
+   <addaction name="menuWater"/>
+   <addaction name="menuUrban"/>
+   <addaction name="menuBurn"/>
+   <addaction name="menuGeology"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNDVI"/>
+   <addaction name="actionNDWI"/>
+   <addaction name="actionNDBI"/>
+   <addaction name="actionNBR"/>
+   <addaction name="actionEVI"/>
+   <addaction name="actionLAI"/>
+   <addaction name="actionSAVI"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNDVI">
+   <property name="text">
+    <string>NDVI</string>
+   </property>
+  </action>
+  <action name="actionNDWI">
+   <property name="text">
+    <string>NDWI</string>
+   </property>
+  </action>
+  <action name="actionSAVI">
+   <property name="text">
+    <string>SAVI</string>
+   </property>
+  </action>
+  <action name="actionGOSAVI">
+   <property name="text">
+    <string>GOSAVI</string>
+   </property>
+  </action>
+  <action name="actionNDGI">
+   <property name="text">
+    <string>NDGI</string>
+   </property>
+  </action>
+  <action name="actionNDBI">
+   <property name="text">
+    <string>NDBI</string>
+   </property>
+  </action>
+  <action name="actionNBR">
+   <property name="text">
+    <string>NBR</string>
+   </property>
+  </action>
+  <action name="actionGDVI">
+   <property name="text">
+    <string>GDVI</string>
+   </property>
+  </action>
+  <action name="actionEVI_2">
+   <property name="text">
+    <string>EVI-2</string>
+   </property>
+  </action>
+  <action name="actionGNDVI">
+   <property name="text">
+    <string>GNDVI</string>
+   </property>
+  </action>
+  <action name="actionCIGreen">
+   <property name="text">
+    <string>CIGreen</string>
+   </property>
+  </action>
+  <action name="actionNDSI">
+   <property name="text">
+    <string>NDSI</string>
+   </property>
+  </action>
+  <action name="actionTVI">
+   <property name="text">
+    <string>TVI</string>
+   </property>
+  </action>
+  <action name="actionEVI">
+   <property name="text">
+    <string>EVI</string>
+   </property>
+  </action>
+  <action name="actionGRVI">
+   <property name="text">
+    <string>GRVI</string>
+   </property>
+  </action>
+  <action name="actionLAI">
+   <property name="text">
+    <string>LAI</string>
+   </property>
+  </action>
+  <action name="actionGVMI">
+   <property name="text">
+    <string>GVMI</string>
+   </property>
+  </action>
+  <action name="actionGLI">
+   <property name="text">
+    <string>GLI</string>
+   </property>
+  </action>
+  <action name="actionLog_Ratio">
+   <property name="text">
+    <string>Log Ratio</string>
+   </property>
+  </action>
+  <action name="actionPan_NDVI">
+   <property name="text">
+    <string>Pan NDVI</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
